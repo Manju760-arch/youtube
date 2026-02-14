@@ -1,16 +1,88 @@
-# React + Vite
+VidTube 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VidTube is a YouTube clone project built using modern web technologies and an external video API. It allows users to browse video categories, watch videos, and explore recommended content—offering a simplified yet functional video streaming experience.
 
-Currently, two official plugins are available:
+Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Category-based browsing:
+Browse videos by categories. Click a category to view videos related to that topic.
 
-## React Compiler
+Video page:
+Click on any video to navigate to its dedicated video page.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Recommended videos:
+A sidebar displays recommended videos. Clicking a recommended video navigates to its page.
 
-## Expanding the ESLint configuration
+Video details from API:
+Each video page shows:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Video title
+
+Channel name
+
+Subscriber count
+
+Like and dislike count
+
+Comments section
+
+Interactive UI:
+Navigate seamlessly between categories, videos, and recommendations. All content is dynamically fetched from the API.
+
+Tech Stack 🛠️
+
+Frontend: HTML, CSS, JavaScript, React
+
+API: YouTube or custom video API
+
+State Management: (if you used Redux/Context API, mention it here)
+
+
+Installation / Running Locally 🚀
+
+Clone the repository:
+
+git clone <your-repo-link>
+
+
+Navigate to the project folder:
+
+cd VidTube
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open http://localhost:3000
+ in your browser.
+
+API Integration 📡
+
+Fetches video data including title, channel, views, likes, comments, and recommended videos.
+
+Dynamic rendering of content based on category selection.
+
+All data is updated in real-time from the API.
+
+Future Enhancements 🚀
+
+Add search functionality to find videos by keywords.
+
+Implement user authentication and personalized playlists.
+
+Add video upload functionality for users.
+
+Improve UI responsiveness and accessibility.
+
+Author ✍️
+
+Manju Siva – Frontend Developer
+LinkedIn:www.linkedin.com/in/manjusiva12
+ | Portfolio:https://portfolio-5nba.vercel.app/
